@@ -1,0 +1,37 @@
+
+.checked {
+    color: #eeac82;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-left {
+    text-align: left;
+    width: 10rem;
+}
+th {
+    font-weight: 100 !important;
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2d7;
+}
+input[type="radio"] {
+    margin: 0;
+}
+.submit-form {
+    border: 1px solid #e2e2e2; 
+    padding: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
